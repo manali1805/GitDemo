@@ -6,6 +6,8 @@ public enum APIResources {
 	DeletePlaceAPI("/maps/api/place/delete/json"),
 	GetPlaceAPI("/maps/api/place/get/json");
 	
+	
+	
 	private String resource;
 	
 	APIResources(String resource) {
