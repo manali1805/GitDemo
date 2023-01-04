@@ -27,6 +27,9 @@ public class TestDataBuild {
 		l1.setLat(-38.383494);
 		l1.setLng(33.427362);
 		p.setLocation(l1);
+		
+		System.out.println("Jira3");
+		
 		return p;
 	}
 	
