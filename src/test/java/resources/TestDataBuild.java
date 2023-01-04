@@ -27,7 +27,13 @@ public class TestDataBuild {
 		l1.setLat(-38.383494);
 		l1.setLng(33.427362);
 		p.setLocation(l1);
+		
+		System.out.println("Jira1");
+		System.out.println("Jira2");
+		
 		return p;
+		
+		
 	}
 	
 	public String DeletePlacePayload(String placeId) {
